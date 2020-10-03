@@ -36,4 +36,4 @@ Questions for reviewers. List specific questions for your peer reviewers and pro
 
 Questions:
 
-I will have the Data description done by Wednesday morning Oct. 7, and I will work on questions and limitations as we find them.
+I will get the OPS+ csv and statcast CSV for data back to 2015 by monday morning Oct 5. I will have the Data description done by Wednesday morning Oct. 7, and I will work on questions and limitations as we find them.
