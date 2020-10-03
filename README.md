@@ -15,8 +15,25 @@ last_name, first_name,year,xba,xslg,xwoba,xobp,xiso,exit_velocity_avg,launch_ang
 
 This file contains the majority of our data, including name, and a lot of statcast stats. I think we should use this as our main dataframe, then add other data onto this that is does not already contain (like wOBA, UBR, OPS+, wRC+)
 
-Brendan:
+Data Cleaning: Jonas
+Monday-----> Have UBR and wRC+ stats of individual players for 2019 season
+and ensure all data has significant values(No NaN entries etc.)
+Thursday---> Have each of the csv Dataframes narrowed to the column that pertains to the specific stat and append the columns to the statcast dataframe
 
-- Summary statistics for predictor variables
-- Correlation coefficients and scatter plots between interesting pairs of variables
-- Possibly do some correlation coefficients between predictor variables to avoid having multiple redundant variables in our final analysis
+Geoff:
+Data description. Have an initial draft of your data description section. Your data description should be about your analysis-ready data.
+
+    A general description of the data, including where we got it from, the form that it takes.
+    A key that describes each individual column of data that we have so it can be read easily.
+
+Data limitations. Identify any potential problems with your dataset.
+
+    We will find limitations as we go, but right now our dataset seems pretty comprehensive.
+
+Questions for reviewers. List specific questions for your peer reviewers and project mentor to answer in giving you feedback on this phase.
+
+    Everyone should at any point write down questions they have (in this section designated Questions in the readme), I will compile them for the reviewers, as well as any other questions I can think of.
+
+Questions:
+
+I will get the OPS+ csv and statcast CSV for data back to 2015 by monday morning Oct 5. I will have the Data description done by Wednesday morning Oct. 7, and I will work on questions and limitations as we find them.
