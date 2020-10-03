@@ -14,3 +14,8 @@ statcast_stats_2019.csv
 last_name, first_name,year,xba,xslg,xwoba,xobp,xiso,exit_velocity_avg,launch_angle_avg,sweet_spot_percent,barrels,barrel_batted_rate,solidcontact_percent,flareburner_percent,poorlyunder_percent,poorlytopped_percent,poorlyweak_percent,hard_hit_percent,z_swing_percent,z_swing_miss_percent,oz_swing_percent,oz_swing_miss_percent,oz_contact_percent,out_zone_swing_miss,out_zone_swing,out_zone_percent,out_zone,meatball_swing_percent,meatball_percent,pitch_count_offspeed,pitch_count_fastball,pitch_count_breaking,pitch_count,iz_contact_percent,in_zone_swing_miss,in_zone_swing,in_zone_percent,in_zone,edge_percent,edge,whiff_percent,swing_percent,pull_percent,straightaway_percent,opposite_percent,batted_ball,f_strike_percent,groundballs_percent,groundballs,flyballs_percent,flyballs,linedrives_percent,linedrives,popups_percent,popups,n_bolts,hp_to_1b,sprint_speed,
 
 This file contains the majority of our data, including name, and a lot of statcast stats. I think we should use this as our main dataframe, then add other data onto this that is does not already contain (like wOBA, UBR, OPS+, wRC+)
+
+Data Cleaning: Jonas
+Monday-----> Have UBR and wRC+ stats of individual players for 2019 season
+and ensure all data has significant values(No NaN entries etc.)
+Thursday---> Have each of the csv Dataframes narrowed to the column that pertains to the specific stat and append the columns to the statcast dataframe
