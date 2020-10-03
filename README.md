@@ -17,8 +17,12 @@ This file contains the majority of our data, including name, and a lot of statca
 
 Data Cleaning: Jonas
 Monday-----> Have UBR and wRC+ stats of individual players for 2019 season
+<<<<<<< Updated upstream
 and ensure all data has significant values(No NaN entries etc.)
 Thursday---> Have each of the csv Dataframes narrowed to the column that pertains to the specific stat and append the columns to the statcast dataframe
+=======
+and ensure all data has significant values(No NaN entries etc.) Have each of the csv Dataframes narrowed to the column that pertains to the specific stat and append the columns to the statcast dataframe
+>>>>>>> Stashed changes
 
 Geoff:
 Data description. Have an initial draft of your data description section. Your data description should be about your analysis-ready data.
@@ -36,4 +40,8 @@ Questions for reviewers. List specific questions for your peer reviewers and pro
 
 Questions:
 
+<<<<<<< Updated upstream
 I will get the OPS+ csv and statcast CSV for data back to 2015 by monday morning Oct 5. I will have the Data description done by Wednesday morning Oct. 7, and I will work on questions and limitations as we find them.
+=======
+I will have the Data description done by Wednesday morning Oct. 7, and I will work on questions and limitations as we find them.
+>>>>>>> Stashed changes
