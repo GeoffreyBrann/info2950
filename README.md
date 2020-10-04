@@ -36,3 +36,9 @@ Questions for reviewers. List specific questions for your peer reviewers and pro
 Questions:
 
 I will have the Data description done by Wednesday morning Oct. 7, and I will work on questions and limitations as we find them.
+
+Brendan:
+- Summary statistics for predictor variables
+- Correlation coefficients and scatter plots between interesting pairs of variables
+- Possibly do some correlation coefficients between predictor variables to avoid having multiple redundant variables in our final analysis
+- Will take about two days to do this analysis
